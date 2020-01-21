@@ -308,14 +308,14 @@ input[type="reset"],
 }
 
 .button.inverse {
-    background: 0;
+    background: #0B486B;
     color: _palette(accent);
     &:hover,
     &:focus,
     &:active {
         background: _palette(accent);
         border-color: _palette(accent);
-        color: #0B486B;
+        color: #3B8686;
     }
 }
 
