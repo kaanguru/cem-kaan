@@ -5,7 +5,7 @@ sections:
     component: Intro
     type: intro
     title: Intro
-    content: fullstack coder looking for a remote job
+    content: Problem solving and decision making in Computer Science
 menus:
   main:
     title: Home
