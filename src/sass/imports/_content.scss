@@ -55,7 +55,7 @@
 
 .post-card {
     margin-bottom: 4vw;
-    background-color: #ffffffd9;
+    background-color: 0;
     .post-header {
         margin-bottom: 0.83333rem;
     }
@@ -72,6 +72,7 @@
 }
 
 .post-card-inside {
+    background-color: white;
     border: 1px solid _palette(border);
     border-radius: 3px;
     display: -webkit-flex;
