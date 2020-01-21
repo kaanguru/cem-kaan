@@ -1,28 +1,10 @@
-
 // Font.
-$font: (
-  primary: ("PT Sans", sans-serif),
-  secondary: ("PT Serif", serif)
-);
-
+$font: ( primary: ("Gelasio", serif), secondary: ("Roboto Slab", serif));
 // Palette.
-$palette: (
-  primary:       #5e5e5e,
-  secondary:     darken(#5e5e5e, 25%),
-  meta:          lighten(#5e5e5e, 25%),
-  border:        lighten(#5e5e5e, 50%),
-  bg:            lighten(#5e5e5e, 60%),
-  accent:        #3cb464,
-  accent-blue:   #108afb,
-  accent-black:  #323232,
-  accent-red:    #a51c30
-);
-
+$palette: ( primary: #79BD9A, secondary: darken(#5e5e5e, 25%), meta: lighten(#5e5e5e, 25%), border: lighten(#5e5e5e, 50%), bg: lighten(#5e5e5e, 60%), accent: #3cb464, accent-blue: #108afb, accent-black: #323232, accent-red: #a51c30);
 @import "imports/functions";
-
 @import "fontawesome.min.css";
 @import "brands.min.css";
-
 @import "imports/reset";
 @import "imports/general";
 @import "imports/icons";
