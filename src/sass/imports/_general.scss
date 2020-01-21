@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    background: #A8DBA8;
+    background: _palette(bg);
     color: _palette(primary);
     line-height: 1.66667;
 }
@@ -283,8 +283,8 @@ input[type="submit"],
 input[type="button"],
 input[type="reset"],
 .button {
-    background: _palette(accent);
-    border: 2px solid _palette(accent);
+    background: #0B486B;
+    border: 1px solid #3B8686;
     border-radius: 3px;
     box-sizing: border-box;
     color: #fff;
@@ -301,8 +301,8 @@ input[type="reset"],
     &:focus,
     &:active {
         background: 0;
-        border-color: _palette(accent);
-        color: _palette(accent);
+        border-color: #3B8686;
+        color: #3B8686;
         outline: 0;
     }
 }
@@ -315,7 +315,7 @@ input[type="reset"],
     &:active {
         background: _palette(accent);
         border-color: _palette(accent);
-        color: #fff;
+        color: #0B486B;
     }
 }
 
